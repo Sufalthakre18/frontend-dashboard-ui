@@ -1,8 +1,12 @@
+import Header from "./components/layout/Header"
 
 function App() {
   return (
     <>
-    <h1 className='italic text-6xl bg-red-700'>Begiining of project</h1>
+    <div className="min-h-screen bg-[#f8f1f6]">
+      <Header/>
+    </div>
+     
     </>
   )
 }
